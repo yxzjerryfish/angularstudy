@@ -1,0 +1,20 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  background-color: blanchedalmond;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+  background-image: linear-gradient(blue, white);
+}
+
+.mat-toolbar.mat-primary {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-image: linear-gradient(#e66465, #9198e5);
+}
