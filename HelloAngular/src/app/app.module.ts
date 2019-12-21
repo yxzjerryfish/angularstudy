@@ -11,13 +11,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import {MyDashboardComponent} from './my-dashboard/my-dashboard.component'
+import { MatGridListModule } from '@angular/material/grid-list';
+import {  MatCardModule, MatMenuModule, MatTableModule, MatPaginatorModule, MatSortModule } from '@angular/material';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MyNavComponent,
-    MyDashboardComponent
+    MyNavComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +28,13 @@ import {MyDashboardComponent} from './my-dashboard/my-dashboard.component'
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule,
+    MatCardModule,
+    MatMenuModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
